@@ -48,8 +48,6 @@ public class Problem29_DevideTwoIntegers {
 
 	public static void main(String[] args) {
 
-		System.out.println(Integer.MIN_VALUE);
-		System.out.println(Integer.toBinaryString(Integer.MIN_VALUE / 2));
 		Solution29 s = new Solution29();
 		System.out.println(s.divide(-2147483648, 2));
 
